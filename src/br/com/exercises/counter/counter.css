@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+.sixtyfour-hack {
+    -fx-font-family: "Sixtyfour", sans-serif;
+}
+
+.container {
+    -fx-background: #002;
+}
+
+.label {
+    -fx-pref-width: 400px;
+    -fx-alignment: center;
+}
+
+.counter-title {
+    -fx-pref-width: 400;
+    -fx-alignment: center;
+    -fx-font-size: 30px;
+    -fx-text-fill: #7f1;
+    -fx-font-weight: bolder;
+    -fx-padding: 10px;
+    -fx-pref-width: 400;
+    -fx-alignment: center;
+}
+
+.counter-text {
+    -fx-text-fill: #faa;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.btn-box {
+    -fx-padding: 10px;
+}
+
+.btn {
+    -fx-pref-width: 100;
+    -fx-background-color: #71f;
+    -fx-text-fill: #fff;
+    -fx-font-size: 20px;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #1f7;
+    -fx-radius: 100px;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.btn:hover {
+    -fx-background-color: #9250e9;
+    -fx-cursor: hand;
+}
