@@ -1,17 +1,22 @@
 package br.com.layouts;
 
 import javafx.application.Application;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class AppLayout extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        VBox box = new VBox();
+        Parent root = null;
 
-        Scene scene = new Scene(box, 800, 600);
+        root = new AnchorCustom();
+        root = new CustomBorderPane();
+        root = new CustomFlowPane();
+        root = new CustomGridPane();
+
+        Scene scene = new Scene(root, 800, 600);
 
         primaryStage.setScene(scene);
         primaryStage.setTitle("Layouts");
