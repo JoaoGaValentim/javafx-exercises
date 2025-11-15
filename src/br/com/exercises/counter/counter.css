@@ -5,7 +5,7 @@
 }
 
 .container {
-    -fx-background: #002;
+    -fx-background: #171717;
 }
 
 .label {
@@ -36,8 +36,8 @@
 
 .btn {
     -fx-pref-width: 100;
-    -fx-background-color: #71f;
-    -fx-text-fill: #fff;
+    -fx-background-color: #000000;
+    -fx-text-fill: #1f7;
     -fx-font-size: 20px;
     -fx-focus-color: transparent;
     -fx-faint-focus-color: transparent;
@@ -51,6 +51,6 @@
 }
 
 .btn:hover {
-    -fx-background-color: #9250e9;
+    -fx-background-color: #252525;
     -fx-cursor: hand;
 }
