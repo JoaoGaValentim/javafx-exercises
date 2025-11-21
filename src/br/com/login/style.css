@@ -1,0 +1,32 @@
+#app {
+    -fx-background-color: #000;
+}
+
+#title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-text-fill: #1f7;
+    -fx-font-weight: 600;
+    -fx-font-size: 17px;
+}
+
+.field {
+    -fx-background-color: #000;
+    -fx-border-style: solid;
+    -fx-border-color: #1f7;
+    -fx-text-fill: #1f7;
+}
+
+.button {
+    -fx-background-color: #000;
+    -fx-border-style: solid;
+    -fx-border-color: #1f7;
+    -fx-text-fill: #1f7;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}

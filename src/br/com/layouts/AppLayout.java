@@ -15,6 +15,8 @@ public class AppLayout extends Application {
         root = new CustomBorderPane();
         root = new CustomFlowPane();
         root = new CustomGridPane();
+        // root = new CustomStackPane();
+        root = new CustomTilePane();
 
         Scene scene = new Scene(root, 800, 600);
 
